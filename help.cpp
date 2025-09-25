@@ -3,7 +3,7 @@
 #include "help.h"
 
 
-bool check_match(std::string day, int n)
+bool cm(std::string day, int n)
 {
     if (day == "Понедельник" || day == "понедельник")
     {return n == 12 ? true : false;}
