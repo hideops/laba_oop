@@ -1,3 +1,3 @@
 #pragma once
 #include <string>
-bool check_match(std::string day, int n);
+bool cm(std::string day, int n);
